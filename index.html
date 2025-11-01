@@ -182,7 +182,7 @@
 
         /* Отступ для контента */
         .nHIBJPZVQthU {
-            margin-top: 120px;
+            margin-top: 80px;
         }
 
         /* Стили для шапки */
@@ -196,7 +196,7 @@
         }
 
         .sgstECYiRZQL img {
-            height: 50px;
+            height: 40px;
             width: auto;
             transition: all 0.3s ease;
         }
@@ -204,19 +204,19 @@
         .header-actions {
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 15px;
         }
 
         .play-button-header {
             background-color: #ffc107;
             color: #000;
             border: none;
-            padding: 12px 25px;
+            padding: 10px 20px;
             border-radius: 5px;
             font-weight: bold;
             cursor: pointer;
             transition: all 0.3s;
-            font-size: 16px;
+            font-size: 14px;
             white-space: nowrap;
         }
 
@@ -232,16 +232,17 @@
 
         .language-dropdown span {
             cursor: pointer;
-            padding: 10px 15px;
+            padding: 8px 12px;
             display: block;
             white-space: nowrap;
+            font-size: 14px;
         }
 
         .language-dropdown-content {
             display: none;
             position: absolute;
             background-color: #f9f9f9;
-            min-width: 160px;
+            min-width: 140px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
             right: 0;
@@ -250,9 +251,10 @@
 
         .language-dropdown-content a {
             color: black;
-            padding: 12px 16px;
+            padding: 10px 14px;
             text-decoration: none;
             display: block;
+            font-size: 14px;
         }
 
         .language-dropdown-content a:hover {
@@ -266,42 +268,44 @@
         /* Первый экран */
         .first-screen {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
-            padding: 60px 20px;
+            padding: 30px 20px;
             max-width: 1200px;
             margin: 0 auto;
-            min-height: 70vh;
+            min-height: auto;
         }
 
         .first-screen-content {
             flex: 1;
-            max-width: 600px;
-            padding-right: 40px;
+            max-width: 100%;
+            padding-right: 0;
+            margin-bottom: 30px;
+            text-align: center;
         }
 
         .first-screen h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
             color: #333;
-            line-height: 1.2;
+            line-height: 1.3;
             font-weight: 700;
         }
 
         .first-screen p {
-            font-size: 1.2rem;
+            font-size: 1rem;
             line-height: 1.6;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             color: #666;
-            max-width: 500px;
+            max-width: 100%;
         }
 
         .divider {
             height: 1px;
             background: #ddd;
-            margin: 30px 0;
-            max-width: 500px;
+            margin: 20px auto;
+            max-width: 300px;
+            width: 100%;
         }
 
         .first-screen-image {
@@ -309,33 +313,31 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 100%;
         }
 
         .square-image {
             width: 100%;
-            max-width: 500px;
+            max-width: 350px;
             height: auto;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            transition: transform 0.3s ease;
-        }
-
-        .square-image:hover {
-            transform: translateY(-5px);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
         .play-button-main {
             background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
             color: #000;
             border: none;
-            padding: 16px 35px;
+            padding: 14px 30px;
             border-radius: 8px;
             font-weight: bold;
             cursor: pointer;
             transition: all 0.3s;
-            font-size: 18px;
+            font-size: 16px;
             box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
             display: inline-block;
+            width: 100%;
+            max-width: 280px;
         }
 
         .play-button-main:hover {
@@ -345,14 +347,14 @@
 
         /* Стили для блока с видео */
         .video-section {
-            padding: 80px 20px;
+            padding: 40px 20px;
             text-align: center;
             background-color: #f8f9fa;
         }
 
         .video-section h2 {
-            font-size: 2.5rem;
-            margin-bottom: 40px;
+            font-size: 1.6rem;
+            margin-bottom: 25px;
             color: #333;
         }
 
@@ -366,8 +368,8 @@
             padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
             height: 0;
             overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
         .video-wrapper iframe {
@@ -383,58 +385,59 @@
         .ZFxKtkaOKkmW {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px 40px;
+            padding: 0 15px 30px;
         }
 
         .ZFxKtkaOKkmW h2 {
-            font-size: 2.2rem;
-            margin: 40px 0 20px;
+            font-size: 1.6rem;
+            margin: 30px 0 15px;
             color: #333;
         }
 
         .ZFxKtkaOKkmW h3 {
-            font-size: 1.8rem;
-            margin: 30px 0 15px;
+            font-size: 1.4rem;
+            margin: 25px 0 12px;
             color: #444;
         }
 
         .ZFxKtkaOKkmW h4 {
-            font-size: 1.4rem;
-            margin: 25px 0 12px;
+            font-size: 1.2rem;
+            margin: 20px 0 10px;
             color: #555;
         }
 
         .ZFxKtkaOKkmW p {
-            margin-bottom: 20px;
-            line-height: 1.7;
-            font-size: 1.1rem;
+            margin-bottom: 15px;
+            line-height: 1.6;
+            font-size: 1rem;
         }
 
         .ZFxKtkaOKkmW ul {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             padding-left: 20px;
         }
 
         .ZFxKtkaOKkmW li {
             margin-bottom: 8px;
-            line-height: 1.6;
+            line-height: 1.5;
         }
 
         .ORSuFUhculcN {
-            margin: 30px 0;
+            margin: 20px 0;
             overflow-x: auto;
         }
 
         .ORSuFUhculcN table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 15px 0;
             min-width: 600px;
+            font-size: 14px;
         }
 
         .ORSuFUhculcN th, .ORSuFUhculcN td {
             border: 1px solid #ddd;
-            padding: 12px;
+            padding: 10px;
             text-align: left;
         }
 
@@ -444,51 +447,49 @@
         }
 
         .SyyDoOADwCAS {
-            margin: 30px 0;
-            padding: 20px;
+            margin: 25px 0;
+            padding: 15px;
             background: #f8f9fa;
-            border-radius: 10px;
+            border-radius: 8px;
         }
 
         .xSmSQFoCKICg {
             text-align: center;
-            margin: 20px 0;
+            margin: 15px 0;
         }
 
         .nBDhfaclyySy {
             max-width: 100%;
             height: auto;
-            border-radius: 10px;
+            border-radius: 8px;
         }
 
         /* Стили для центрированного подвала */
         .main-footer {
             background-color: #333;
             color: #fff;
-            padding: 40px 20px;
-            margin-top: 40px;
+            padding: 30px 15px;
+            margin-top: 30px;
         }
 
         .footer-content {
             max-width: 1200px;
             margin: 0 auto;
             display: flex;
-            justify-content: center;
-            gap: 40px;
-            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 25px;
         }
 
         .footer-menu-column {
-            min-width: 200px;
             text-align: center;
         }
 
         .footer-menu-column h3 {
-            margin-bottom: 20px;
-            font-size: 18px;
+            margin-bottom: 15px;
+            font-size: 16px;
             color: #ffc107;
             border-bottom: 2px solid #ffc107;
-            padding-bottom: 10px;
+            padding-bottom: 8px;
             display: inline-block;
         }
 
@@ -499,7 +500,7 @@
         }
 
         .footer-menu-column ul li {
-            margin-bottom: 12px;
+            margin-bottom: 10px;
         }
 
         .footer-menu-column ul li a {
@@ -515,97 +516,57 @@
 
         .footer-bottom {
             max-width: 1200px;
-            margin: 40px auto 0;
-            padding-top: 20px;
+            margin: 30px auto 0;
+            padding-top: 15px;
             border-top: 1px solid #555;
             text-align: center;
-            font-size: 14px;
+            font-size: 13px;
             color: #aaa;
         }
 
-        /* Адаптивность */
-        /* Планшеты */
-        @media (max-width: 1024px) {
-            .first-screen h1 {
-                font-size: 2.5rem;
-            }
-            
-            .first-screen p {
-                font-size: 1.1rem;
-            }
-            
-            .video-section h2 {
-                font-size: 2.2rem;
-            }
-            
-            .ZFxKtkaOKkmW h2 {
-                font-size: 2rem;
-            }
-        }
-
-        /* Мобильные устройства */
-        @media (max-width: 768px) {
+        /* Адаптивность для планшетов */
+        @media (min-width: 768px) {
             .nHIBJPZVQthU {
-                margin-top: 100px;
-            }
-            
-            .dVtDShhzWafv {
-                padding: 10px 15px;
-                flex-wrap: wrap;
-            }
-            
-            .sgstECYiRZQL img {
-                height: 40px;
-            }
-            
-            .header-actions {
-                gap: 15px;
-                margin-top: 10px;
-                width: 100%;
-                justify-content: flex-end;
-            }
-            
-            .play-button-header {
-                padding: 10px 20px;
-                font-size: 14px;
+                margin-top: 90px;
             }
             
             .first-screen {
-                flex-direction: column;
-                text-align: center;
-                padding: 40px 20px;
-                min-height: auto;
+                flex-direction: row;
+                text-align: left;
+                padding: 50px 20px;
+                min-height: 60vh;
             }
             
             .first-screen-content {
-                padding-right: 0;
-                margin-bottom: 40px;
-                max-width: 100%;
+                padding-right: 40px;
+                margin-bottom: 0;
+                text-align: left;
+                max-width: 50%;
             }
             
             .first-screen h1 {
                 font-size: 2.2rem;
-                margin-bottom: 15px;
+                margin-bottom: 20px;
             }
             
             .first-screen p {
                 font-size: 1.1rem;
                 margin-bottom: 25px;
-                max-width: 100%;
             }
             
             .divider {
                 margin: 25px 0;
-                max-width: 100%;
+                max-width: 400px;
+                margin-left: 0;
             }
             
             .play-button-main {
+                width: auto;
                 padding: 14px 30px;
-                font-size: 16px;
             }
             
             .square-image {
-                max-width: 350px;
+                max-width: 400px;
             }
             
             .video-section {
@@ -618,46 +579,64 @@
             }
             
             .ZFxKtkaOKkmW {
-                padding: 0 15px 30px;
+                padding: 0 20px 40px;
             }
             
             .ZFxKtkaOKkmW h2 {
                 font-size: 1.8rem;
-                margin: 30px 0 15px;
             }
             
             .ZFxKtkaOKkmW h3 {
                 font-size: 1.6rem;
-                margin: 25px 0 12px;
             }
             
             .ZFxKtkaOKkmW h4 {
                 font-size: 1.3rem;
-                margin: 20px 0 10px;
-            }
-            
-            .ZFxKtkaOKkmW p {
-                font-size: 1rem;
             }
             
             .footer-content {
-                gap: 30px;
+                flex-direction: row;
                 justify-content: space-around;
-            }
-            
-            .footer-menu-column {
-                min-width: 160px;
+                gap: 30px;
             }
         }
 
-        /* Маленькие мобильные устройства */
-        @media (max-width: 480px) {
+        /* Адаптивность для десктопов */
+        @media (min-width: 1024px) {
             .nHIBJPZVQthU {
-                margin-top: 90px;
+                margin-top: 100px;
             }
             
+            .first-screen h1 {
+                font-size: 2.5rem;
+            }
+            
+            .first-screen p {
+                font-size: 1.2rem;
+            }
+            
+            .play-button-main {
+                padding: 16px 35px;
+                font-size: 18px;
+            }
+            
+            .square-image {
+                max-width: 500px;
+            }
+            
+            .video-section h2 {
+                font-size: 2.2rem;
+            }
+            
+            .ZFxKtkaOKkmW h2 {
+                font-size: 2rem;
+            }
+        }
+
+        /* Дополнительные улучшения для мобильных устройств */
+        @media (max-width: 767px) {
             .dVtDShhzWafv {
-                padding: 8px 10px;
+                padding: 10px 15px;
             }
             
             .sgstECYiRZQL img {
@@ -666,84 +645,28 @@
             
             .header-actions {
                 gap: 10px;
-                flex-direction: column;
-                align-items: flex-end;
+            }
+            
+            .play-button-header {
+                padding: 8px 15px;
+                font-size: 13px;
             }
             
             .language-dropdown span {
-                padding: 8px 12px;
-                font-size: 14px;
+                padding: 6px 10px;
+                font-size: 13px;
             }
             
             .first-screen {
-                padding: 30px 15px;
-            }
-            
-            .first-screen h1 {
-                font-size: 1.8rem;
-            }
-            
-            .first-screen p {
-                font-size: 1rem;
-            }
-            
-            .play-button-main {
-                padding: 12px 25px;
-                font-size: 15px;
-                width: 100%;
-                max-width: 280px;
-            }
-            
-            .square-image {
-                max-width: 280px;
-            }
-            
-            .video-section {
-                padding: 40px 15px;
-            }
-            
-            .video-section h2 {
-                font-size: 1.8rem;
-                margin-bottom: 25px;
-            }
-            
-            .ZFxKtkaOKkmW {
-                padding: 0 10px 20px;
-            }
-            
-            .ZFxKtkaOKkmW h2 {
-                font-size: 1.6rem;
-            }
-            
-            .ZFxKtkaOKkmW h3 {
-                font-size: 1.4rem;
-            }
-            
-            .ZFxKtkaOKkmW h4 {
-                font-size: 1.2rem;
+                padding: 20px 15px;
             }
             
             .ORSuFUhculcN table {
-                font-size: 14px;
+                font-size: 13px;
             }
             
             .ORSuFUhculcN th, .ORSuFUhculcN td {
-                padding: 8px 10px;
-            }
-            
-            .footer-content {
-                flex-direction: column;
-                gap: 25px;
-            }
-            
-            .footer-menu-column {
-                min-width: auto;
-                width: 100%;
-            }
-            
-            .footer-bottom {
-                margin-top: 30px;
-                font-size: 13px;
+                padding: 8px;
             }
         }
 
@@ -758,12 +681,12 @@
             }
             
             .play-button-main {
-                padding: 10px 20px;
-                font-size: 14px;
+                padding: 12px 25px;
+                font-size: 15px;
             }
             
             .video-section h2 {
-                font-size: 1.6rem;
+                font-size: 1.4rem;
             }
             
             .ZFxKtkaOKkmW h2 {
@@ -775,11 +698,11 @@
         @media (max-height: 500px) and (orientation: landscape) {
             .first-screen {
                 min-height: 100vh;
-                padding: 40px 20px;
+                padding: 30px 20px;
             }
             
             .nHIBJPZVQthU {
-                margin-top: 80px;
+                margin-top: 70px;
             }
         }
 
