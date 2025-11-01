@@ -282,6 +282,7 @@
             padding-right: 0;
             margin-bottom: 30px;
             text-align: center;
+            order: 1; /* Контент будет первым на мобильных */
         }
 
         .first-screen h1 {
@@ -314,6 +315,7 @@
             justify-content: center;
             align-items: center;
             width: 100%;
+            order: 2; /* Изображение будет вторым на мобильных */
         }
 
         .square-image {
@@ -524,7 +526,7 @@
             color: #aaa;
         }
 
-        /* Адаптивность для планшетов */
+        /* Адаптивность для планшетов и десктопов */
         @media (min-width: 768px) {
             .nHIBJPZVQthU {
                 margin-top: 90px;
@@ -542,6 +544,11 @@
                 margin-bottom: 0;
                 text-align: left;
                 max-width: 50%;
+                order: 1; /* На планшетах и десктопах контент слева */
+            }
+            
+            .first-screen-image {
+                order: 2; /* На планшетах и десктопах изображение справа */
             }
             
             .first-screen h1 {
@@ -659,6 +666,16 @@
             
             .first-screen {
                 padding: 20px 15px;
+            }
+            
+            /* На мобильных: сначала текст, потом изображение */
+            .first-screen-content {
+                order: 1;
+            }
+            
+            .first-screen-image {
+                order: 2;
+                margin-top: 20px;
             }
             
             .ORSuFUhculcN table {
